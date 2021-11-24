@@ -1,0 +1,26 @@
+.navLink span {
+    margin: 10px;
+    background-color: #6c7589;
+}
+
+.menubtn {
+    background-color: #6c7589;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin: 1%;;
+}
+
+.navLink {
+    position: relative;
+    display: inline-block;
+}
+
+.navLinkChild {
+    display: none;
+}
+
+.navLink:hover .navLinkChild {
+    display: flex;
+}
