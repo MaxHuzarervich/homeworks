@@ -1,0 +1,8 @@
+.spanClass {
+    color: black;
+    transition: 0.6s linear;
+    margin: 2%;
+}
+.spanClass:hover {
+  color: #1d49aa;
+}
